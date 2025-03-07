@@ -1,0 +1,113 @@
+@import "tailwindcss";
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+/* body {
+    background-color: #f4f3f2;
+    color: #373e33;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background: rgb(253, 255, 252);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+button {
+    background: #39421c;
+    color: #f4f3f2;
+    padding: 9px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover:not(:disabled) {
+    background: #4a5523;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button:active:not(:disabled) {
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+button:disabled {
+    background: #70815fa8;
+}
+
+/*====== "Frens" ======*/
+
+/* #frens {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#frens-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+    flex-wrap: wrap;
+}
+
+.fren {
+    width: 100px;
+    height: 150px;
+    border-radius: 50%;
+    opacity: 0.3;
+    transition: opacity 0.3s ease-in-out;
+    object-fit: cover; 
+}
+
+.unlocked {
+    opacity: 1;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+input[type="number"] {
+    width: 45px;
+    padding: 8.2px;
+    font-size: 16px;
+    border: 1.5px solid #5a5a3e;
+    text-align: right;
+    outline: none;
+    
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"]:focus {
+    border-color: #39421c;
+    box-shadow: 0 0 5px rgba(57, 66, 28, 0.5);
+}
+
+.short-break {
+    color: #4b9a55; /* Example: Green for short break 
+}
+
+.long-break {
+    color: #1b8dd3;
+} */

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>focus 𓅫 frens</title>
+<!-- Google Fonts-->
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- Tailwind Config -->
+<script>
+    tailwind.config = {
+        darkMode: ["class"],
+        theme: {
+            container: {
+              center: true,
+              padding: "2rem",
+              screens: {
+                "2xl": "1400px",
+              },
+            },
+            extend: {
+              fontFamily: {
+                sans: ['Inter', 'sans-serif'],
+              },
+              colors: {
+                'background': '#f4f3f2',
+                'foreground': '#373e33',
+                'button': '#39421c',
+                'button-hover': '#4a5523',
+                'short-break': '#4b9a55',
+                'long-break': '#1b8dd3',
+              },
+              keyframes: {
+                "accordion-down": {
+                  from: { height: 0 },
+                  to: { height: "var(--radix-accordion-content-height)" },
+                },
+                "accordion-up": {
+                  from: { height: "var(--radix-accordion-content-height)" },
+                  to: { height: 0 },
+                },
+              },
+              animation: {
+                "accordion-down": "accordion-down 0.2s ease-out",
+                "accordion-up": "accordion-up 0.2s ease-out",
+              },
+            },
+          },
+        }
+</script>
+ <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>@ the tree: focus frens</h1>
+
+        <p id="streak">streak: 0 -day streak</p>
+
+        <div id="frens">
+            <h2>fren?! frensssss!</h2>
+            <div id="frens-list">
+                <img src="./assets/img/stnkyjy.png" alt="Stinkyjay (Blue Jay)" class="fren unlocked">
+            </div>
+        </div>
+
+        <p id="session-number">focus frentime: 0</p>
+
+        <p id="timer">25:00</p>
+        <label for="custom-time">custom focus time (min):</label>
+<input type="number" id="custom-time" min="1" max="120" value="30">
+
+        <button id="start-btn">focus</button>
+        <button id="pause-btn" disabled>pause</button>
+        <button id="reset-btn">reset</button>
+
+        <audio id="focus-noise" src="https://www.youtube.com/embed/UwullClr0uw" hidden></audio>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
