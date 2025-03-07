@@ -1,0 +1,23 @@
+{
+  "name": "focusfrens",
+  "version": "1.0.0",
+  "description": "my personal focus timer, inspired by my feathered friends (+ squirrel) at the park!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirstendanica/-the-tree-focus-frens.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirstendanica/-the-tree-focus-frens/issues"
+  },
+  "homepage": "https://github.com/kirstendanica/-the-tree-focus-frens#readme",
+  "dependencies": {
+    "live-server": "^1.2.0"
+  }
+}
